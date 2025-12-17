@@ -1,6 +1,6 @@
 ﻿namespace PokeQuest
 {
-    partial class PokeQuest
+    partial class PokeQuestWindow
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // PokeQuestWindow
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(1376, 741);
+            this.Name = "PokeQuestWindow";
+            this.Text = "PokeQuest";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

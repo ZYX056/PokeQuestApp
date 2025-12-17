@@ -16,7 +16,7 @@ namespace PokeQuest
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new PokeQuest());
+            Application.Run(new PokeQuestWindow());
         }
     }
 }
