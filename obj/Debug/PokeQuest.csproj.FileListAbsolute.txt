@@ -16,3 +16,4 @@ C:\Users\zxion\Desktop\PokeQuestApp\obj\Debug\PokeQuest.csproj.GenerateResource.
 C:\Users\zxion\Desktop\PokeQuestApp\obj\Debug\PokeQuest.csproj.CoreCompileInputs.cache
 C:\Users\zxion\Desktop\PokeQuestApp\obj\Debug\PokeQuest.exe
 C:\Users\zxion\Desktop\PokeQuestApp\obj\Debug\PokeQuest.pdb
+C:\Users\zxion\Desktop\PokeQuestApp\obj\Debug\PokeQuest.PokeQuestWindow.resources
