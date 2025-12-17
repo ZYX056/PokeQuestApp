@@ -46,11 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Model\Item.cs" />
+    <Compile Include="Model\Pokemon.cs" />
+    <Compile Include="Model\Trainer.cs" />
+    <Compile Include="Model\TypeWeakness.cs" />
+    <Compile Include="Data\ItemRepository.cs" />
+    <Compile Include="Data\PokemonRepository.cs" />
+    <Compile Include="Data\TrainerRepository.cs" />
+    <Compile Include="Data\TypeWeaknessRepository.cs" />
+    <Compile Include="UI\PokeQuest.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="UI\PokeQuest.Designer.cs">
+      <DependentUpon>PokeQuest.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -75,6 +83,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Helpers\" />
+    <Folder Include="Resources\" />
+    <Folder Include="Services\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
