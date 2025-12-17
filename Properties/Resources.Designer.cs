@@ -63,6 +63,16 @@ namespace PokeQuest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Pokeball_Icon {
+            get {
+                object obj = ResourceManager.GetObject("Pokeball_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap UnownQuestionMark_Icon {
             get {
                 object obj = ResourceManager.GetObject("UnownQuestionMark_Icon", resourceCulture);

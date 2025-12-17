@@ -95,5 +95,8 @@
   <ItemGroup>
     <None Include="Resources\Icons\UnownQuestionMark_Icon.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons\Pokeball_Icon.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
