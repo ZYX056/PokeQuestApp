@@ -1,0 +1,9 @@
+C:\Users\zxion\Desktop\PokeQuest\bin\Debug\PokeQuest.exe.config
+C:\Users\zxion\Desktop\PokeQuest\bin\Debug\PokeQuest.exe
+C:\Users\zxion\Desktop\PokeQuest\bin\Debug\PokeQuest.pdb
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.csproj.AssemblyReference.cache
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.Properties.Resources.resources
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.csproj.GenerateResource.cache
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.csproj.CoreCompileInputs.cache
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.exe
+C:\Users\zxion\Desktop\PokeQuest\obj\Debug\PokeQuest.pdb
