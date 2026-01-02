@@ -63,6 +63,16 @@ namespace PokeQuest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap bulbasaur {
+            get {
+                object obj = ResourceManager.GetObject("bulbasaur", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FemaleGender_Icon_Small {
             get {
                 object obj = ResourceManager.GetObject("FemaleGender_Icon_Small", resourceCulture);
@@ -146,6 +156,26 @@ namespace PokeQuest.Properties {
         internal static System.Drawing.Bitmap Pokeball_Icon {
             get {
                 object obj = ResourceManager.GetObject("Pokeball_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ultra_ball_small {
+            get {
+                object obj = ResourceManager.GetObject("ultra-ball-small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ultra_ball_small1 {
+            get {
+                object obj = ResourceManager.GetObject("ultra-ball-small1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -55,7 +55,7 @@
             this.NicknameLabel5 = new System.Windows.Forms.Label();
             this.NicknameLabel4 = new System.Windows.Forms.Label();
             this.AddItemTextBox = new System.Windows.Forms.TextBox();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.BackpackGridView = new System.Windows.Forms.DataGridView();
             this.AddItemQtyTextBox = new System.Windows.Forms.TextBox();
             this.KarmaCheckBox1 = new System.Windows.Forms.CheckBox();
             this.KarmaCheckBox3 = new System.Windows.Forms.CheckBox();
@@ -72,11 +72,14 @@
             this.StressCheckBox6 = new System.Windows.Forms.CheckBox();
             this.FateDieLabel = new System.Windows.Forms.Label();
             this.FateDieCheckBox = new System.Windows.Forms.CheckBox();
+            this.AddItemLabel = new System.Windows.Forms.Label();
+            this.DeleteItemLabel = new System.Windows.Forms.Label();
+            this.ClearItemButton = new System.Windows.Forms.Button();
             this.UnknownCheckBox = new System.Windows.Forms.CheckBox();
             this.FemaleCheckBox = new System.Windows.Forms.CheckBox();
             this.MaleCheckBox = new System.Windows.Forms.CheckBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.DeleteItemBtn = new System.Windows.Forms.Button();
+            this.AddItemBtn = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -85,7 +88,10 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TrainerPicBox = new System.Windows.Forms.PictureBox();
             this.SubmitTrainerButton = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.ClearItemLabel = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.BackpackGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -367,25 +373,25 @@
             // AddItemTextBox
             // 
             this.AddItemTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemTextBox.Location = new System.Drawing.Point(1465, 432);
+            this.AddItemTextBox.Location = new System.Drawing.Point(1427, 434);
             this.AddItemTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.AddItemTextBox.Name = "AddItemTextBox";
-            this.AddItemTextBox.Size = new System.Drawing.Size(291, 25);
+            this.AddItemTextBox.Size = new System.Drawing.Size(276, 25);
             this.AddItemTextBox.TabIndex = 23;
             this.AddItemTextBox.Text = "Type Item Name...";
             // 
-            // dataGridView1
+            // BackpackGridView
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(1465, 12);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(437, 408);
-            this.dataGridView1.TabIndex = 24;
+            this.BackpackGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.BackpackGridView.Location = new System.Drawing.Point(1427, 12);
+            this.BackpackGridView.Name = "BackpackGridView";
+            this.BackpackGridView.Size = new System.Drawing.Size(475, 408);
+            this.BackpackGridView.TabIndex = 24;
             // 
             // AddItemQtyTextBox
             // 
             this.AddItemQtyTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemQtyTextBox.Location = new System.Drawing.Point(1768, 432);
+            this.AddItemQtyTextBox.Location = new System.Drawing.Point(1715, 432);
             this.AddItemQtyTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.AddItemQtyTextBox.Name = "AddItemQtyTextBox";
             this.AddItemQtyTextBox.Size = new System.Drawing.Size(55, 25);
@@ -544,6 +550,35 @@
             this.FateDieCheckBox.TabIndex = 51;
             this.FateDieCheckBox.UseVisualStyleBackColor = true;
             // 
+            // AddItemLabel
+            // 
+            this.AddItemLabel.BackColor = System.Drawing.Color.Transparent;
+            this.AddItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddItemLabel.Location = new System.Drawing.Point(1776, 462);
+            this.AddItemLabel.Name = "AddItemLabel";
+            this.AddItemLabel.Size = new System.Drawing.Size(35, 37);
+            this.AddItemLabel.TabIndex = 55;
+            this.AddItemLabel.Text = " Add  Item";
+            // 
+            // DeleteItemLabel
+            // 
+            this.DeleteItemLabel.BackColor = System.Drawing.Color.Transparent;
+            this.DeleteItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.DeleteItemLabel.Location = new System.Drawing.Point(1814, 462);
+            this.DeleteItemLabel.Name = "DeleteItemLabel";
+            this.DeleteItemLabel.Size = new System.Drawing.Size(45, 37);
+            this.DeleteItemLabel.TabIndex = 56;
+            this.DeleteItemLabel.Text = "Delete   Item";
+            // 
+            // ClearItemButton
+            // 
+            this.ClearItemButton.Image = global::PokeQuest.Properties.Resources.ultra_ball_small1;
+            this.ClearItemButton.Location = new System.Drawing.Point(1855, 432);
+            this.ClearItemButton.Name = "ClearItemButton";
+            this.ClearItemButton.Size = new System.Drawing.Size(32, 27);
+            this.ClearItemButton.TabIndex = 57;
+            this.ClearItemButton.UseVisualStyleBackColor = true;
+            // 
             // UnknownCheckBox
             // 
             this.UnknownCheckBox.Image = global::PokeQuest.Properties.Resources.UnownQuestionMark_Icon_Small2;
@@ -571,23 +606,23 @@
             this.MaleCheckBox.TabIndex = 52;
             this.MaleCheckBox.UseVisualStyleBackColor = true;
             // 
-            // button1
+            // DeleteItemBtn
             // 
-            this.button1.Image = global::PokeQuest.Properties.Resources.great_ball3;
-            this.button1.Location = new System.Drawing.Point(1870, 432);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 27);
-            this.button1.TabIndex = 35;
-            this.button1.UseVisualStyleBackColor = true;
+            this.DeleteItemBtn.Image = global::PokeQuest.Properties.Resources.great_ball3;
+            this.DeleteItemBtn.Location = new System.Drawing.Point(1817, 432);
+            this.DeleteItemBtn.Name = "DeleteItemBtn";
+            this.DeleteItemBtn.Size = new System.Drawing.Size(32, 27);
+            this.DeleteItemBtn.TabIndex = 35;
+            this.DeleteItemBtn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // AddItemBtn
             // 
-            this.button2.Image = global::PokeQuest.Properties.Resources.poke_ball;
-            this.button2.Location = new System.Drawing.Point(1832, 432);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(32, 27);
-            this.button2.TabIndex = 34;
-            this.button2.UseVisualStyleBackColor = true;
+            this.AddItemBtn.Image = global::PokeQuest.Properties.Resources.poke_ball;
+            this.AddItemBtn.Location = new System.Drawing.Point(1779, 432);
+            this.AddItemBtn.Name = "AddItemBtn";
+            this.AddItemBtn.Size = new System.Drawing.Size(32, 27);
+            this.AddItemBtn.TabIndex = 34;
+            this.AddItemBtn.UseVisualStyleBackColor = true;
             // 
             // pictureBox6
             // 
@@ -666,12 +701,47 @@
             this.SubmitTrainerButton.TabIndex = 3;
             this.SubmitTrainerButton.UseVisualStyleBackColor = true;
             // 
+            // ClearItemLabel
+            // 
+            this.ClearItemLabel.BackColor = System.Drawing.Color.Transparent;
+            this.ClearItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ClearItemLabel.Location = new System.Drawing.Point(1852, 462);
+            this.ClearItemLabel.Name = "ClearItemLabel";
+            this.ClearItemLabel.Size = new System.Drawing.Size(45, 37);
+            this.ClearItemLabel.TabIndex = 58;
+            this.ClearItemLabel.Text = " Clear    Item";
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(1715, 462);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(24, 37);
+            this.button1.TabIndex = 59;
+            this.button1.Text = "+";
+            this.button1.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(1745, 462);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(24, 37);
+            this.button2.TabIndex = 60;
+            this.button2.Text = "-";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // PokeQuestWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1920, 978);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.ClearItemLabel);
+            this.Controls.Add(this.ClearItemButton);
+            this.Controls.Add(this.DeleteItemLabel);
+            this.Controls.Add(this.AddItemLabel);
             this.Controls.Add(this.UnknownCheckBox);
             this.Controls.Add(this.FemaleCheckBox);
             this.Controls.Add(this.MaleCheckBox);
@@ -690,8 +760,8 @@
             this.Controls.Add(this.KarmaCheckBox2);
             this.Controls.Add(this.KarmaCheckBox3);
             this.Controls.Add(this.KarmaCheckBox1);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.DeleteItemBtn);
+            this.Controls.Add(this.AddItemBtn);
             this.Controls.Add(this.pictureBox6);
             this.Controls.Add(this.pictureBox5);
             this.Controls.Add(this.pictureBox4);
@@ -699,7 +769,7 @@
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.AddItemQtyTextBox);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.BackpackGridView);
             this.Controls.Add(this.AddItemTextBox);
             this.Controls.Add(this.NicknameLabel4);
             this.Controls.Add(this.NicknameLabel5);
@@ -735,7 +805,7 @@
             this.Name = "PokeQuestWindow";
             this.Text = "PokeQuest";
             this.TransparencyKey = System.Drawing.Color.Gainsboro;
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.BackpackGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
@@ -778,7 +848,7 @@
         private System.Windows.Forms.Label NicknameLabel5;
         private System.Windows.Forms.Label NicknameLabel4;
         private System.Windows.Forms.TextBox AddItemTextBox;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView BackpackGridView;
         private System.Windows.Forms.TextBox AddItemQtyTextBox;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -786,8 +856,8 @@
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox5;
         private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button AddItemBtn;
+        private System.Windows.Forms.Button DeleteItemBtn;
         private System.Windows.Forms.CheckBox KarmaCheckBox1;
         private System.Windows.Forms.CheckBox KarmaCheckBox3;
         private System.Windows.Forms.CheckBox KarmaCheckBox2;
@@ -806,6 +876,12 @@
         private System.Windows.Forms.CheckBox MaleCheckBox;
         private System.Windows.Forms.CheckBox FemaleCheckBox;
         private System.Windows.Forms.CheckBox UnknownCheckBox;
+        private System.Windows.Forms.Label AddItemLabel;
+        private System.Windows.Forms.Label DeleteItemLabel;
+        private System.Windows.Forms.Button ClearItemButton;
+        private System.Windows.Forms.Label ClearItemLabel;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
     }
 }
 

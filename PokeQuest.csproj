@@ -132,6 +132,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pokeballs_Icon.ico" />
+    <None Include="Resources\Icons\ultra-ball-small.png" />
+    <None Include="Resources\Pokemon\bulbasaur.gif" />
     <None Include="Resources\Icons\UnownQuestionMark_Icon_Small2.png" />
     <None Include="Resources\Icons\UnownQuestionMark_Icon_Small.png" />
     <None Include="Resources\Icons\FemaleGender_Icon_Small.png" />
