@@ -63,6 +63,16 @@ namespace PokeQuest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap FemaleGender_Icon_Small {
+            get {
+                object obj = ResourceManager.GetObject("FemaleGender_Icon_Small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap great_ball {
             get {
                 object obj = ResourceManager.GetObject("great-ball", resourceCulture);
@@ -103,6 +113,26 @@ namespace PokeQuest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap MaleGender_Icon {
+            get {
+                object obj = ResourceManager.GetObject("MaleGender_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap MaleGender_Icon_Small {
+            get {
+                object obj = ResourceManager.GetObject("MaleGender_Icon_Small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap poke_ball {
             get {
                 object obj = ResourceManager.GetObject("poke-ball", resourceCulture);
@@ -126,6 +156,26 @@ namespace PokeQuest.Properties {
         internal static System.Drawing.Bitmap UnownQuestionMark_Icon {
             get {
                 object obj = ResourceManager.GetObject("UnownQuestionMark_Icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UnownQuestionMark_Icon_Small {
+            get {
+                object obj = ResourceManager.GetObject("UnownQuestionMark_Icon_Small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap UnownQuestionMark_Icon_Small2 {
+            get {
+                object obj = ResourceManager.GetObject("UnownQuestionMark_Icon_Small2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

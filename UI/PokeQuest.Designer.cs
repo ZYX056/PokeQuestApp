@@ -57,6 +57,24 @@
             this.AddItemTextBox = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.AddItemQtyTextBox = new System.Windows.Forms.TextBox();
+            this.KarmaCheckBox1 = new System.Windows.Forms.CheckBox();
+            this.KarmaCheckBox3 = new System.Windows.Forms.CheckBox();
+            this.KarmaCheckBox2 = new System.Windows.Forms.CheckBox();
+            this.KarmaCheckBox4 = new System.Windows.Forms.CheckBox();
+            this.KarmaCheckBox5 = new System.Windows.Forms.CheckBox();
+            this.KarmaLabel = new System.Windows.Forms.Label();
+            this.StressLabel = new System.Windows.Forms.Label();
+            this.StressCheckBox1 = new System.Windows.Forms.CheckBox();
+            this.StressCheckBox2 = new System.Windows.Forms.CheckBox();
+            this.StressCheckBox3 = new System.Windows.Forms.CheckBox();
+            this.StressCheckBox4 = new System.Windows.Forms.CheckBox();
+            this.StressCheckBox5 = new System.Windows.Forms.CheckBox();
+            this.StressCheckBox6 = new System.Windows.Forms.CheckBox();
+            this.FateDieLabel = new System.Windows.Forms.Label();
+            this.FateDieCheckBox = new System.Windows.Forms.CheckBox();
+            this.UnknownCheckBox = new System.Windows.Forms.CheckBox();
+            this.FemaleCheckBox = new System.Windows.Forms.CheckBox();
+            this.MaleCheckBox = new System.Windows.Forms.CheckBox();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
@@ -67,21 +85,6 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.TrainerPicBox = new System.Windows.Forms.PictureBox();
             this.SubmitTrainerButton = new System.Windows.Forms.Button();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.checkBox2 = new System.Windows.Forms.CheckBox();
-            this.checkBox3 = new System.Windows.Forms.CheckBox();
-            this.checkBox4 = new System.Windows.Forms.CheckBox();
-            this.checkBox6 = new System.Windows.Forms.CheckBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.checkBox5 = new System.Windows.Forms.CheckBox();
-            this.checkBox7 = new System.Windows.Forms.CheckBox();
-            this.checkBox8 = new System.Windows.Forms.CheckBox();
-            this.checkBox9 = new System.Windows.Forms.CheckBox();
-            this.checkBox10 = new System.Windows.Forms.CheckBox();
-            this.checkBox11 = new System.Windows.Forms.CheckBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.checkBox12 = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
@@ -389,6 +392,185 @@
             this.AddItemQtyTextBox.TabIndex = 26;
             this.AddItemQtyTextBox.Text = "Qty";
             // 
+            // KarmaCheckBox1
+            // 
+            this.KarmaCheckBox1.AutoSize = true;
+            this.KarmaCheckBox1.Location = new System.Drawing.Point(559, 69);
+            this.KarmaCheckBox1.Name = "KarmaCheckBox1";
+            this.KarmaCheckBox1.Size = new System.Drawing.Size(39, 28);
+            this.KarmaCheckBox1.TabIndex = 36;
+            this.KarmaCheckBox1.Text = "1";
+            this.KarmaCheckBox1.UseVisualStyleBackColor = true;
+            // 
+            // KarmaCheckBox3
+            // 
+            this.KarmaCheckBox3.AutoSize = true;
+            this.KarmaCheckBox3.Location = new System.Drawing.Point(649, 69);
+            this.KarmaCheckBox3.Name = "KarmaCheckBox3";
+            this.KarmaCheckBox3.Size = new System.Drawing.Size(39, 28);
+            this.KarmaCheckBox3.TabIndex = 37;
+            this.KarmaCheckBox3.Text = "3";
+            this.KarmaCheckBox3.UseVisualStyleBackColor = true;
+            // 
+            // KarmaCheckBox2
+            // 
+            this.KarmaCheckBox2.AutoSize = true;
+            this.KarmaCheckBox2.Location = new System.Drawing.Point(604, 69);
+            this.KarmaCheckBox2.Name = "KarmaCheckBox2";
+            this.KarmaCheckBox2.Size = new System.Drawing.Size(39, 28);
+            this.KarmaCheckBox2.TabIndex = 38;
+            this.KarmaCheckBox2.Text = "2";
+            this.KarmaCheckBox2.UseVisualStyleBackColor = true;
+            // 
+            // KarmaCheckBox4
+            // 
+            this.KarmaCheckBox4.AutoSize = true;
+            this.KarmaCheckBox4.Location = new System.Drawing.Point(694, 69);
+            this.KarmaCheckBox4.Name = "KarmaCheckBox4";
+            this.KarmaCheckBox4.Size = new System.Drawing.Size(39, 28);
+            this.KarmaCheckBox4.TabIndex = 39;
+            this.KarmaCheckBox4.Text = "4";
+            this.KarmaCheckBox4.UseVisualStyleBackColor = true;
+            // 
+            // KarmaCheckBox5
+            // 
+            this.KarmaCheckBox5.AutoSize = true;
+            this.KarmaCheckBox5.Location = new System.Drawing.Point(739, 69);
+            this.KarmaCheckBox5.Name = "KarmaCheckBox5";
+            this.KarmaCheckBox5.Size = new System.Drawing.Size(39, 28);
+            this.KarmaCheckBox5.TabIndex = 41;
+            this.KarmaCheckBox5.Text = "5";
+            this.KarmaCheckBox5.UseVisualStyleBackColor = true;
+            // 
+            // KarmaLabel
+            // 
+            this.KarmaLabel.AutoSize = true;
+            this.KarmaLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.KarmaLabel.Location = new System.Drawing.Point(555, 42);
+            this.KarmaLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.KarmaLabel.Name = "KarmaLabel";
+            this.KarmaLabel.Size = new System.Drawing.Size(75, 24);
+            this.KarmaLabel.TabIndex = 42;
+            this.KarmaLabel.Text = "Karma:";
+            // 
+            // StressLabel
+            // 
+            this.StressLabel.AutoSize = true;
+            this.StressLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.StressLabel.Location = new System.Drawing.Point(555, 104);
+            this.StressLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.StressLabel.Name = "StressLabel";
+            this.StressLabel.Size = new System.Drawing.Size(62, 24);
+            this.StressLabel.TabIndex = 43;
+            this.StressLabel.Text = "Stress:";
+            // 
+            // StressCheckBox1
+            // 
+            this.StressCheckBox1.AutoSize = true;
+            this.StressCheckBox1.Location = new System.Drawing.Point(559, 131);
+            this.StressCheckBox1.Name = "StressCheckBox1";
+            this.StressCheckBox1.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox1.TabIndex = 44;
+            this.StressCheckBox1.Text = "1";
+            this.StressCheckBox1.UseVisualStyleBackColor = true;
+            // 
+            // StressCheckBox2
+            // 
+            this.StressCheckBox2.AutoSize = true;
+            this.StressCheckBox2.Location = new System.Drawing.Point(604, 131);
+            this.StressCheckBox2.Name = "StressCheckBox2";
+            this.StressCheckBox2.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox2.TabIndex = 45;
+            this.StressCheckBox2.Text = "2";
+            this.StressCheckBox2.UseVisualStyleBackColor = true;
+            // 
+            // StressCheckBox3
+            // 
+            this.StressCheckBox3.AutoSize = true;
+            this.StressCheckBox3.Location = new System.Drawing.Point(649, 131);
+            this.StressCheckBox3.Name = "StressCheckBox3";
+            this.StressCheckBox3.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox3.TabIndex = 46;
+            this.StressCheckBox3.Text = "3";
+            this.StressCheckBox3.UseVisualStyleBackColor = true;
+            // 
+            // StressCheckBox4
+            // 
+            this.StressCheckBox4.AutoSize = true;
+            this.StressCheckBox4.Location = new System.Drawing.Point(694, 131);
+            this.StressCheckBox4.Name = "StressCheckBox4";
+            this.StressCheckBox4.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox4.TabIndex = 47;
+            this.StressCheckBox4.Text = "4";
+            this.StressCheckBox4.UseVisualStyleBackColor = true;
+            // 
+            // StressCheckBox5
+            // 
+            this.StressCheckBox5.AutoSize = true;
+            this.StressCheckBox5.Location = new System.Drawing.Point(739, 131);
+            this.StressCheckBox5.Name = "StressCheckBox5";
+            this.StressCheckBox5.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox5.TabIndex = 48;
+            this.StressCheckBox5.Text = "5";
+            this.StressCheckBox5.UseVisualStyleBackColor = true;
+            // 
+            // StressCheckBox6
+            // 
+            this.StressCheckBox6.AutoSize = true;
+            this.StressCheckBox6.Location = new System.Drawing.Point(784, 131);
+            this.StressCheckBox6.Name = "StressCheckBox6";
+            this.StressCheckBox6.Size = new System.Drawing.Size(39, 28);
+            this.StressCheckBox6.TabIndex = 49;
+            this.StressCheckBox6.Text = "6";
+            this.StressCheckBox6.UseVisualStyleBackColor = true;
+            // 
+            // FateDieLabel
+            // 
+            this.FateDieLabel.AutoSize = true;
+            this.FateDieLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.FateDieLabel.Location = new System.Drawing.Point(555, 169);
+            this.FateDieLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.FateDieLabel.Name = "FateDieLabel";
+            this.FateDieLabel.Size = new System.Drawing.Size(88, 24);
+            this.FateDieLabel.TabIndex = 50;
+            this.FateDieLabel.Text = "Fate Die:";
+            // 
+            // FateDieCheckBox
+            // 
+            this.FateDieCheckBox.AutoSize = true;
+            this.FateDieCheckBox.Location = new System.Drawing.Point(559, 196);
+            this.FateDieCheckBox.Name = "FateDieCheckBox";
+            this.FateDieCheckBox.Size = new System.Drawing.Size(15, 14);
+            this.FateDieCheckBox.TabIndex = 51;
+            this.FateDieCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // UnknownCheckBox
+            // 
+            this.UnknownCheckBox.Image = global::PokeQuest.Properties.Resources.UnownQuestionMark_Icon_Small2;
+            this.UnknownCheckBox.Location = new System.Drawing.Point(476, 84);
+            this.UnknownCheckBox.Name = "UnknownCheckBox";
+            this.UnknownCheckBox.Size = new System.Drawing.Size(58, 44);
+            this.UnknownCheckBox.TabIndex = 54;
+            this.UnknownCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // FemaleCheckBox
+            // 
+            this.FemaleCheckBox.Image = global::PokeQuest.Properties.Resources.FemaleGender_Icon_Small;
+            this.FemaleCheckBox.Location = new System.Drawing.Point(392, 84);
+            this.FemaleCheckBox.Name = "FemaleCheckBox";
+            this.FemaleCheckBox.Size = new System.Drawing.Size(58, 44);
+            this.FemaleCheckBox.TabIndex = 53;
+            this.FemaleCheckBox.UseVisualStyleBackColor = true;
+            // 
+            // MaleCheckBox
+            // 
+            this.MaleCheckBox.Image = global::PokeQuest.Properties.Resources.MaleGender_Icon_Small;
+            this.MaleCheckBox.Location = new System.Drawing.Point(311, 84);
+            this.MaleCheckBox.Name = "MaleCheckBox";
+            this.MaleCheckBox.Size = new System.Drawing.Size(58, 44);
+            this.MaleCheckBox.TabIndex = 52;
+            this.MaleCheckBox.UseVisualStyleBackColor = true;
+            // 
             // button1
             // 
             this.button1.Image = global::PokeQuest.Properties.Resources.great_ball3;
@@ -484,179 +666,30 @@
             this.SubmitTrainerButton.TabIndex = 3;
             this.SubmitTrainerButton.UseVisualStyleBackColor = true;
             // 
-            // checkBox1
-            // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(559, 69);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(39, 28);
-            this.checkBox1.TabIndex = 36;
-            this.checkBox1.Text = "1";
-            this.checkBox1.UseVisualStyleBackColor = true;
-            // 
-            // checkBox2
-            // 
-            this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(649, 69);
-            this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(39, 28);
-            this.checkBox2.TabIndex = 37;
-            this.checkBox2.Text = "3";
-            this.checkBox2.UseVisualStyleBackColor = true;
-            // 
-            // checkBox3
-            // 
-            this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(604, 69);
-            this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(39, 28);
-            this.checkBox3.TabIndex = 38;
-            this.checkBox3.Text = "2";
-            this.checkBox3.UseVisualStyleBackColor = true;
-            // 
-            // checkBox4
-            // 
-            this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(694, 69);
-            this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(39, 28);
-            this.checkBox4.TabIndex = 39;
-            this.checkBox4.Text = "4";
-            this.checkBox4.UseVisualStyleBackColor = true;
-            // 
-            // checkBox6
-            // 
-            this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(739, 69);
-            this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(39, 28);
-            this.checkBox6.TabIndex = 41;
-            this.checkBox6.Text = "5";
-            this.checkBox6.UseVisualStyleBackColor = true;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.Location = new System.Drawing.Point(555, 42);
-            this.label6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(75, 24);
-            this.label6.TabIndex = 42;
-            this.label6.Text = "Karma:";
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(555, 104);
-            this.label7.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(62, 24);
-            this.label7.TabIndex = 43;
-            this.label7.Text = "Stress:";
-            // 
-            // checkBox5
-            // 
-            this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(559, 131);
-            this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(39, 28);
-            this.checkBox5.TabIndex = 44;
-            this.checkBox5.Text = "1";
-            this.checkBox5.UseVisualStyleBackColor = true;
-            // 
-            // checkBox7
-            // 
-            this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(604, 131);
-            this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(39, 28);
-            this.checkBox7.TabIndex = 45;
-            this.checkBox7.Text = "2";
-            this.checkBox7.UseVisualStyleBackColor = true;
-            // 
-            // checkBox8
-            // 
-            this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(649, 131);
-            this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(39, 28);
-            this.checkBox8.TabIndex = 46;
-            this.checkBox8.Text = "3";
-            this.checkBox8.UseVisualStyleBackColor = true;
-            // 
-            // checkBox9
-            // 
-            this.checkBox9.AutoSize = true;
-            this.checkBox9.Location = new System.Drawing.Point(694, 131);
-            this.checkBox9.Name = "checkBox9";
-            this.checkBox9.Size = new System.Drawing.Size(39, 28);
-            this.checkBox9.TabIndex = 47;
-            this.checkBox9.Text = "4";
-            this.checkBox9.UseVisualStyleBackColor = true;
-            // 
-            // checkBox10
-            // 
-            this.checkBox10.AutoSize = true;
-            this.checkBox10.Location = new System.Drawing.Point(739, 131);
-            this.checkBox10.Name = "checkBox10";
-            this.checkBox10.Size = new System.Drawing.Size(39, 28);
-            this.checkBox10.TabIndex = 48;
-            this.checkBox10.Text = "5";
-            this.checkBox10.UseVisualStyleBackColor = true;
-            // 
-            // checkBox11
-            // 
-            this.checkBox11.AutoSize = true;
-            this.checkBox11.Location = new System.Drawing.Point(784, 131);
-            this.checkBox11.Name = "checkBox11";
-            this.checkBox11.Size = new System.Drawing.Size(39, 28);
-            this.checkBox11.TabIndex = 49;
-            this.checkBox11.Text = "6";
-            this.checkBox11.UseVisualStyleBackColor = true;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(555, 169);
-            this.label8.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(88, 24);
-            this.label8.TabIndex = 50;
-            this.label8.Text = "Fate Die:";
-            // 
-            // checkBox12
-            // 
-            this.checkBox12.AutoSize = true;
-            this.checkBox12.Location = new System.Drawing.Point(559, 196);
-            this.checkBox12.Name = "checkBox12";
-            this.checkBox12.Size = new System.Drawing.Size(15, 14);
-            this.checkBox12.TabIndex = 51;
-            this.checkBox12.UseVisualStyleBackColor = true;
-            // 
             // PokeQuestWindow
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1920, 978);
-            this.Controls.Add(this.checkBox12);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.checkBox11);
-            this.Controls.Add(this.checkBox10);
-            this.Controls.Add(this.checkBox9);
-            this.Controls.Add(this.checkBox8);
-            this.Controls.Add(this.checkBox7);
-            this.Controls.Add(this.checkBox5);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.checkBox6);
-            this.Controls.Add(this.checkBox4);
-            this.Controls.Add(this.checkBox3);
-            this.Controls.Add(this.checkBox2);
-            this.Controls.Add(this.checkBox1);
+            this.Controls.Add(this.UnknownCheckBox);
+            this.Controls.Add(this.FemaleCheckBox);
+            this.Controls.Add(this.MaleCheckBox);
+            this.Controls.Add(this.FateDieCheckBox);
+            this.Controls.Add(this.FateDieLabel);
+            this.Controls.Add(this.StressCheckBox6);
+            this.Controls.Add(this.StressCheckBox5);
+            this.Controls.Add(this.StressCheckBox4);
+            this.Controls.Add(this.StressCheckBox3);
+            this.Controls.Add(this.StressCheckBox2);
+            this.Controls.Add(this.StressCheckBox1);
+            this.Controls.Add(this.StressLabel);
+            this.Controls.Add(this.KarmaLabel);
+            this.Controls.Add(this.KarmaCheckBox5);
+            this.Controls.Add(this.KarmaCheckBox4);
+            this.Controls.Add(this.KarmaCheckBox2);
+            this.Controls.Add(this.KarmaCheckBox3);
+            this.Controls.Add(this.KarmaCheckBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.pictureBox6);
@@ -755,21 +788,24 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.CheckBox checkBox2;
-        private System.Windows.Forms.CheckBox checkBox3;
-        private System.Windows.Forms.CheckBox checkBox4;
-        private System.Windows.Forms.CheckBox checkBox6;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.CheckBox checkBox5;
-        private System.Windows.Forms.CheckBox checkBox7;
-        private System.Windows.Forms.CheckBox checkBox8;
-        private System.Windows.Forms.CheckBox checkBox9;
-        private System.Windows.Forms.CheckBox checkBox10;
-        private System.Windows.Forms.CheckBox checkBox11;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.CheckBox checkBox12;
+        private System.Windows.Forms.CheckBox KarmaCheckBox1;
+        private System.Windows.Forms.CheckBox KarmaCheckBox3;
+        private System.Windows.Forms.CheckBox KarmaCheckBox2;
+        private System.Windows.Forms.CheckBox KarmaCheckBox4;
+        private System.Windows.Forms.CheckBox KarmaCheckBox5;
+        private System.Windows.Forms.Label KarmaLabel;
+        private System.Windows.Forms.Label StressLabel;
+        private System.Windows.Forms.CheckBox StressCheckBox1;
+        private System.Windows.Forms.CheckBox StressCheckBox2;
+        private System.Windows.Forms.CheckBox StressCheckBox3;
+        private System.Windows.Forms.CheckBox StressCheckBox4;
+        private System.Windows.Forms.CheckBox StressCheckBox5;
+        private System.Windows.Forms.CheckBox StressCheckBox6;
+        private System.Windows.Forms.Label FateDieLabel;
+        private System.Windows.Forms.CheckBox FateDieCheckBox;
+        private System.Windows.Forms.CheckBox MaleCheckBox;
+        private System.Windows.Forms.CheckBox FemaleCheckBox;
+        private System.Windows.Forms.CheckBox UnknownCheckBox;
     }
 }
 

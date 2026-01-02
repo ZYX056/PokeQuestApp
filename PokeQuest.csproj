@@ -132,6 +132,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pokeballs_Icon.ico" />
+    <None Include="Resources\Icons\UnownQuestionMark_Icon_Small2.png" />
+    <None Include="Resources\Icons\UnownQuestionMark_Icon_Small.png" />
+    <None Include="Resources\Icons\FemaleGender_Icon_Small.png" />
+    <None Include="Resources\Icons\MaleGender_Icon_Small.PNG" />
+    <None Include="Resources\Icons\MaleGender_Icon.png" />
     <None Include="Resources\Icons\poke-ball.png" />
     <None Include="Resources\Icons\great-ball.png" />
   </ItemGroup>
