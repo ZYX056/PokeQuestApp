@@ -373,7 +373,7 @@
             // AddItemTextBox
             // 
             this.AddItemTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemTextBox.Location = new System.Drawing.Point(1427, 434);
+            this.AddItemTextBox.Location = new System.Drawing.Point(1057, 329);
             this.AddItemTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.AddItemTextBox.Name = "AddItemTextBox";
             this.AddItemTextBox.Size = new System.Drawing.Size(276, 25);
@@ -383,15 +383,15 @@
             // BackpackGridView
             // 
             this.BackpackGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.BackpackGridView.Location = new System.Drawing.Point(1427, 12);
+            this.BackpackGridView.Location = new System.Drawing.Point(1057, 12);
             this.BackpackGridView.Name = "BackpackGridView";
-            this.BackpackGridView.Size = new System.Drawing.Size(475, 408);
+            this.BackpackGridView.Size = new System.Drawing.Size(487, 308);
             this.BackpackGridView.TabIndex = 24;
             // 
             // AddItemQtyTextBox
             // 
             this.AddItemQtyTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemQtyTextBox.Location = new System.Drawing.Point(1715, 432);
+            this.AddItemQtyTextBox.Location = new System.Drawing.Point(1345, 329);
             this.AddItemQtyTextBox.Margin = new System.Windows.Forms.Padding(6);
             this.AddItemQtyTextBox.Name = "AddItemQtyTextBox";
             this.AddItemQtyTextBox.Size = new System.Drawing.Size(55, 25);
@@ -554,7 +554,7 @@
             // 
             this.AddItemLabel.BackColor = System.Drawing.Color.Transparent;
             this.AddItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemLabel.Location = new System.Drawing.Point(1776, 462);
+            this.AddItemLabel.Location = new System.Drawing.Point(1406, 359);
             this.AddItemLabel.Name = "AddItemLabel";
             this.AddItemLabel.Size = new System.Drawing.Size(35, 37);
             this.AddItemLabel.TabIndex = 55;
@@ -564,7 +564,7 @@
             // 
             this.DeleteItemLabel.BackColor = System.Drawing.Color.Transparent;
             this.DeleteItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.DeleteItemLabel.Location = new System.Drawing.Point(1814, 462);
+            this.DeleteItemLabel.Location = new System.Drawing.Point(1458, 359);
             this.DeleteItemLabel.Name = "DeleteItemLabel";
             this.DeleteItemLabel.Size = new System.Drawing.Size(45, 37);
             this.DeleteItemLabel.TabIndex = 56;
@@ -573,7 +573,7 @@
             // ClearItemButton
             // 
             this.ClearItemButton.Image = global::PokeQuest.Properties.Resources.ultra_ball_small1;
-            this.ClearItemButton.Location = new System.Drawing.Point(1855, 432);
+            this.ClearItemButton.Location = new System.Drawing.Point(1512, 329);
             this.ClearItemButton.Name = "ClearItemButton";
             this.ClearItemButton.Size = new System.Drawing.Size(32, 27);
             this.ClearItemButton.TabIndex = 57;
@@ -609,7 +609,7 @@
             // DeleteItemBtn
             // 
             this.DeleteItemBtn.Image = global::PokeQuest.Properties.Resources.great_ball3;
-            this.DeleteItemBtn.Location = new System.Drawing.Point(1817, 432);
+            this.DeleteItemBtn.Location = new System.Drawing.Point(1461, 329);
             this.DeleteItemBtn.Name = "DeleteItemBtn";
             this.DeleteItemBtn.Size = new System.Drawing.Size(32, 27);
             this.DeleteItemBtn.TabIndex = 35;
@@ -618,7 +618,7 @@
             // AddItemBtn
             // 
             this.AddItemBtn.Image = global::PokeQuest.Properties.Resources.poke_ball;
-            this.AddItemBtn.Location = new System.Drawing.Point(1779, 432);
+            this.AddItemBtn.Location = new System.Drawing.Point(1409, 329);
             this.AddItemBtn.Name = "AddItemBtn";
             this.AddItemBtn.Size = new System.Drawing.Size(32, 27);
             this.AddItemBtn.TabIndex = 34;
@@ -705,7 +705,7 @@
             // 
             this.ClearItemLabel.BackColor = System.Drawing.Color.Transparent;
             this.ClearItemLabel.Font = new System.Drawing.Font("Mongolian Baiti", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ClearItemLabel.Location = new System.Drawing.Point(1852, 462);
+            this.ClearItemLabel.Location = new System.Drawing.Point(1509, 359);
             this.ClearItemLabel.Name = "ClearItemLabel";
             this.ClearItemLabel.Size = new System.Drawing.Size(45, 37);
             this.ClearItemLabel.TabIndex = 58;
@@ -714,7 +714,7 @@
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1715, 462);
+            this.button1.Location = new System.Drawing.Point(1346, 359);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(24, 37);
             this.button1.TabIndex = 59;
@@ -723,7 +723,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(1745, 462);
+            this.button2.Location = new System.Drawing.Point(1376, 359);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(24, 37);
             this.button2.TabIndex = 60;
@@ -735,7 +735,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
-            this.ClientSize = new System.Drawing.Size(1920, 978);
+            this.ClientSize = new System.Drawing.Size(1670, 978);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.ClearItemLabel);
