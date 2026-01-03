@@ -73,6 +73,26 @@ namespace PokeQuest.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Eevee {
+            get {
+                object obj = ResourceManager.GetObject("Eevee", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap EeveeEvolutions {
+            get {
+                object obj = ResourceManager.GetObject("EeveeEvolutions", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap FemaleGender_Icon_Small {
             get {
                 object obj = ResourceManager.GetObject("FemaleGender_Icon_Small", resourceCulture);
@@ -136,6 +156,16 @@ namespace PokeQuest.Properties {
         internal static System.Drawing.Bitmap MaleGender_Icon_Small {
             get {
                 object obj = ResourceManager.GetObject("MaleGender_Icon_Small", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pikachu {
+            get {
+                object obj = ResourceManager.GetObject("Pikachu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

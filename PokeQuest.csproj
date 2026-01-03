@@ -132,6 +132,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Pokeballs_Icon.ico" />
+    <None Include="Resources\Backgrounds\Pikachu.jpg" />
+    <None Include="Resources\Backgrounds\EeveeEvolutions.jpg" />
+    <None Include="Resources\Backgrounds\Eevee.jpg" />
     <None Include="Resources\Icons\ultra-ball-small.png" />
     <None Include="Resources\Pokemon\bulbasaur.gif" />
     <None Include="Resources\Icons\UnownQuestionMark_Icon_Small2.png" />

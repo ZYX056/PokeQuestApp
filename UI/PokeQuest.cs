@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace PokeQuest
 {
-    public partial class PokeQuestWindow : Form
+    public partial class PokemonPictureBox6 : Form
     {
-        public PokeQuestWindow()
+        public PokemonPictureBox6()
         {
             InitializeComponent();
         }

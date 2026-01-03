@@ -1,6 +1,6 @@
 ﻿namespace PokeQuest
 {
-    partial class PokeQuestWindow
+    partial class PokemonPictureBox6
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PokeQuestWindow));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(PokemonPictureBox6));
             this.TrainerNameLabel = new System.Windows.Forms.Label();
             this.AgeLabel = new System.Windows.Forms.Label();
             this.GenderLabel = new System.Windows.Forms.Label();
@@ -41,20 +41,20 @@
             this.TrainerDescriptionLabel = new System.Windows.Forms.Label();
             this.DescriptionTextBox = new System.Windows.Forms.TextBox();
             this.TrainerDescriptionOutputLabel = new System.Windows.Forms.Label();
-            this.Pokemon1Label = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
+            this.PokemonLabel1 = new System.Windows.Forms.Label();
+            this.PokemonLabel4 = new System.Windows.Forms.Label();
+            this.PokemonLabel2 = new System.Windows.Forms.Label();
+            this.PokemonLabel3 = new System.Windows.Forms.Label();
+            this.PokemonLabel5 = new System.Windows.Forms.Label();
+            this.PokemonLabel6 = new System.Windows.Forms.Label();
             this.TrainerGroupBox = new System.Windows.Forms.ComboBox();
             this.NicknameLabel1 = new System.Windows.Forms.Label();
-            this.NicknameLabel = new System.Windows.Forms.Label();
+            this.NicknameLabel2 = new System.Windows.Forms.Label();
             this.NicknameLabel3 = new System.Windows.Forms.Label();
             this.NicknameLabel6 = new System.Windows.Forms.Label();
             this.NicknameLabel5 = new System.Windows.Forms.Label();
             this.NicknameLabel4 = new System.Windows.Forms.Label();
-            this.AddItemTextBox = new System.Windows.Forms.TextBox();
+            this.ItemTextBox = new System.Windows.Forms.TextBox();
             this.BackpackGridView = new System.Windows.Forms.DataGridView();
             this.AddItemQtyTextBox = new System.Windows.Forms.TextBox();
             this.KarmaCheckBox1 = new System.Windows.Forms.CheckBox();
@@ -80,30 +80,31 @@
             this.MaleCheckBox = new System.Windows.Forms.CheckBox();
             this.DeleteItemBtn = new System.Windows.Forms.Button();
             this.AddItemBtn = new System.Windows.Forms.Button();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.PokemonPictureBox4 = new System.Windows.Forms.PictureBox();
+            this.PokemonPictureBox5 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.PokemonPictureBox3 = new System.Windows.Forms.PictureBox();
+            this.PokemonPictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PokemonPictureBox1 = new System.Windows.Forms.PictureBox();
             this.TrainerPicBox = new System.Windows.Forms.PictureBox();
             this.SubmitTrainerButton = new System.Windows.Forms.Button();
             this.ClearItemLabel = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.AddQtyBtn = new System.Windows.Forms.Button();
+            this.MinusQtyBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.BackpackGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainerPicBox)).BeginInit();
             this.SuspendLayout();
             // 
             // TrainerNameLabel
             // 
             this.TrainerNameLabel.AutoSize = true;
+            this.TrainerNameLabel.BackColor = System.Drawing.Color.Transparent;
             this.TrainerNameLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainerNameLabel.Location = new System.Drawing.Point(58, 42);
             this.TrainerNameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -115,6 +116,7 @@
             // AgeLabel
             // 
             this.AgeLabel.AutoSize = true;
+            this.AgeLabel.BackColor = System.Drawing.Color.Transparent;
             this.AgeLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.AgeLabel.Location = new System.Drawing.Point(58, 92);
             this.AgeLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -126,6 +128,7 @@
             // GenderLabel
             // 
             this.GenderLabel.AutoSize = true;
+            this.GenderLabel.BackColor = System.Drawing.Color.Transparent;
             this.GenderLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.GenderLabel.Location = new System.Drawing.Point(228, 92);
             this.GenderLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -199,6 +202,7 @@
             // TrainerDescriptionLabel
             // 
             this.TrainerDescriptionLabel.AutoSize = true;
+            this.TrainerDescriptionLabel.BackColor = System.Drawing.Color.Transparent;
             this.TrainerDescriptionLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainerDescriptionLabel.Location = new System.Drawing.Point(58, 139);
             this.TrainerDescriptionLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -218,6 +222,7 @@
             // 
             // TrainerDescriptionOutputLabel
             // 
+            this.TrainerDescriptionOutputLabel.BackColor = System.Drawing.Color.Transparent;
             this.TrainerDescriptionOutputLabel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TrainerDescriptionOutputLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TrainerDescriptionOutputLabel.Location = new System.Drawing.Point(62, 171);
@@ -227,66 +232,72 @@
             this.TrainerDescriptionOutputLabel.TabIndex = 8;
             this.TrainerDescriptionOutputLabel.Visible = false;
             // 
-            // Pokemon1Label
+            // PokemonLabel1
             // 
-            this.Pokemon1Label.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.Pokemon1Label.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Pokemon1Label.Location = new System.Drawing.Point(62, 342);
-            this.Pokemon1Label.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.Pokemon1Label.Name = "Pokemon1Label";
-            this.Pokemon1Label.Size = new System.Drawing.Size(265, 306);
-            this.Pokemon1Label.TabIndex = 9;
-            this.Pokemon1Label.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.PokemonLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel1.Location = new System.Drawing.Point(62, 342);
+            this.PokemonLabel1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel1.Name = "PokemonLabel1";
+            this.PokemonLabel1.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel1.TabIndex = 9;
+            this.PokemonLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label1
+            // PokemonLabel4
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(62, 663);
-            this.label1.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(265, 306);
-            this.label1.TabIndex = 10;
+            this.PokemonLabel4.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel4.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel4.Location = new System.Drawing.Point(62, 663);
+            this.PokemonLabel4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel4.Name = "PokemonLabel4";
+            this.PokemonLabel4.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel4.TabIndex = 10;
             // 
-            // label2
+            // PokemonLabel2
             // 
-            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label2.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(339, 342);
-            this.label2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(265, 306);
-            this.label2.TabIndex = 11;
+            this.PokemonLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel2.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel2.Location = new System.Drawing.Point(339, 342);
+            this.PokemonLabel2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel2.Name = "PokemonLabel2";
+            this.PokemonLabel2.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel2.TabIndex = 11;
             // 
-            // label3
+            // PokemonLabel3
             // 
-            this.label3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label3.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(616, 342);
-            this.label3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(265, 306);
-            this.label3.TabIndex = 12;
+            this.PokemonLabel3.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel3.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel3.Location = new System.Drawing.Point(616, 342);
+            this.PokemonLabel3.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel3.Name = "PokemonLabel3";
+            this.PokemonLabel3.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel3.TabIndex = 12;
             // 
-            // label4
+            // PokemonLabel5
             // 
-            this.label4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label4.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(339, 663);
-            this.label4.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(265, 306);
-            this.label4.TabIndex = 13;
+            this.PokemonLabel5.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel5.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel5.Location = new System.Drawing.Point(339, 663);
+            this.PokemonLabel5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel5.Name = "PokemonLabel5";
+            this.PokemonLabel5.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel5.TabIndex = 13;
             // 
-            // label5
+            // PokemonLabel6
             // 
-            this.label5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label5.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(616, 663);
-            this.label5.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(265, 306);
-            this.label5.TabIndex = 14;
+            this.PokemonLabel6.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonLabel6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.PokemonLabel6.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.PokemonLabel6.Location = new System.Drawing.Point(616, 663);
+            this.PokemonLabel6.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.PokemonLabel6.Name = "PokemonLabel6";
+            this.PokemonLabel6.Size = new System.Drawing.Size(265, 306);
+            this.PokemonLabel6.TabIndex = 14;
             // 
             // TrainerGroupBox
             // 
@@ -301,6 +312,7 @@
             // NicknameLabel1
             // 
             this.NicknameLabel1.AutoSize = true;
+            this.NicknameLabel1.BackColor = System.Drawing.Color.Transparent;
             this.NicknameLabel1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.NicknameLabel1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicknameLabel1.Location = new System.Drawing.Point(191, 355);
@@ -310,21 +322,23 @@
             this.NicknameLabel1.TabIndex = 17;
             this.NicknameLabel1.Visible = false;
             // 
-            // NicknameLabel
+            // NicknameLabel2
             // 
-            this.NicknameLabel.AutoSize = true;
-            this.NicknameLabel.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.NicknameLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NicknameLabel.Location = new System.Drawing.Point(468, 355);
-            this.NicknameLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
-            this.NicknameLabel.Name = "NicknameLabel";
-            this.NicknameLabel.Size = new System.Drawing.Size(2, 26);
-            this.NicknameLabel.TabIndex = 18;
-            this.NicknameLabel.Visible = false;
+            this.NicknameLabel2.AutoSize = true;
+            this.NicknameLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.NicknameLabel2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.NicknameLabel2.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NicknameLabel2.Location = new System.Drawing.Point(468, 355);
+            this.NicknameLabel2.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.NicknameLabel2.Name = "NicknameLabel2";
+            this.NicknameLabel2.Size = new System.Drawing.Size(2, 26);
+            this.NicknameLabel2.TabIndex = 18;
+            this.NicknameLabel2.Visible = false;
             // 
             // NicknameLabel3
             // 
             this.NicknameLabel3.AutoSize = true;
+            this.NicknameLabel3.BackColor = System.Drawing.Color.Transparent;
             this.NicknameLabel3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.NicknameLabel3.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicknameLabel3.Location = new System.Drawing.Point(748, 355);
@@ -337,6 +351,7 @@
             // NicknameLabel6
             // 
             this.NicknameLabel6.AutoSize = true;
+            this.NicknameLabel6.BackColor = System.Drawing.Color.Transparent;
             this.NicknameLabel6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.NicknameLabel6.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicknameLabel6.Location = new System.Drawing.Point(748, 677);
@@ -349,6 +364,7 @@
             // NicknameLabel5
             // 
             this.NicknameLabel5.AutoSize = true;
+            this.NicknameLabel5.BackColor = System.Drawing.Color.Transparent;
             this.NicknameLabel5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.NicknameLabel5.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicknameLabel5.Location = new System.Drawing.Point(468, 677);
@@ -361,6 +377,7 @@
             // NicknameLabel4
             // 
             this.NicknameLabel4.AutoSize = true;
+            this.NicknameLabel4.BackColor = System.Drawing.Color.Transparent;
             this.NicknameLabel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.NicknameLabel4.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.NicknameLabel4.Location = new System.Drawing.Point(191, 677);
@@ -370,15 +387,15 @@
             this.NicknameLabel4.TabIndex = 22;
             this.NicknameLabel4.Visible = false;
             // 
-            // AddItemTextBox
+            // ItemTextBox
             // 
-            this.AddItemTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.AddItemTextBox.Location = new System.Drawing.Point(1057, 329);
-            this.AddItemTextBox.Margin = new System.Windows.Forms.Padding(6);
-            this.AddItemTextBox.Name = "AddItemTextBox";
-            this.AddItemTextBox.Size = new System.Drawing.Size(276, 25);
-            this.AddItemTextBox.TabIndex = 23;
-            this.AddItemTextBox.Text = "Type Item Name...";
+            this.ItemTextBox.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.ItemTextBox.Location = new System.Drawing.Point(1057, 329);
+            this.ItemTextBox.Margin = new System.Windows.Forms.Padding(6);
+            this.ItemTextBox.Name = "ItemTextBox";
+            this.ItemTextBox.Size = new System.Drawing.Size(276, 25);
+            this.ItemTextBox.TabIndex = 23;
+            this.ItemTextBox.Text = "Type Item Name...";
             // 
             // BackpackGridView
             // 
@@ -401,56 +418,62 @@
             // KarmaCheckBox1
             // 
             this.KarmaCheckBox1.AutoSize = true;
+            this.KarmaCheckBox1.BackColor = System.Drawing.Color.Transparent;
             this.KarmaCheckBox1.Location = new System.Drawing.Point(559, 69);
             this.KarmaCheckBox1.Name = "KarmaCheckBox1";
             this.KarmaCheckBox1.Size = new System.Drawing.Size(39, 28);
             this.KarmaCheckBox1.TabIndex = 36;
             this.KarmaCheckBox1.Text = "1";
-            this.KarmaCheckBox1.UseVisualStyleBackColor = true;
+            this.KarmaCheckBox1.UseVisualStyleBackColor = false;
             // 
             // KarmaCheckBox3
             // 
             this.KarmaCheckBox3.AutoSize = true;
+            this.KarmaCheckBox3.BackColor = System.Drawing.Color.Transparent;
             this.KarmaCheckBox3.Location = new System.Drawing.Point(649, 69);
             this.KarmaCheckBox3.Name = "KarmaCheckBox3";
             this.KarmaCheckBox3.Size = new System.Drawing.Size(39, 28);
             this.KarmaCheckBox3.TabIndex = 37;
             this.KarmaCheckBox3.Text = "3";
-            this.KarmaCheckBox3.UseVisualStyleBackColor = true;
+            this.KarmaCheckBox3.UseVisualStyleBackColor = false;
             // 
             // KarmaCheckBox2
             // 
             this.KarmaCheckBox2.AutoSize = true;
+            this.KarmaCheckBox2.BackColor = System.Drawing.Color.Transparent;
             this.KarmaCheckBox2.Location = new System.Drawing.Point(604, 69);
             this.KarmaCheckBox2.Name = "KarmaCheckBox2";
             this.KarmaCheckBox2.Size = new System.Drawing.Size(39, 28);
             this.KarmaCheckBox2.TabIndex = 38;
             this.KarmaCheckBox2.Text = "2";
-            this.KarmaCheckBox2.UseVisualStyleBackColor = true;
+            this.KarmaCheckBox2.UseVisualStyleBackColor = false;
             // 
             // KarmaCheckBox4
             // 
             this.KarmaCheckBox4.AutoSize = true;
+            this.KarmaCheckBox4.BackColor = System.Drawing.Color.Transparent;
             this.KarmaCheckBox4.Location = new System.Drawing.Point(694, 69);
             this.KarmaCheckBox4.Name = "KarmaCheckBox4";
             this.KarmaCheckBox4.Size = new System.Drawing.Size(39, 28);
             this.KarmaCheckBox4.TabIndex = 39;
             this.KarmaCheckBox4.Text = "4";
-            this.KarmaCheckBox4.UseVisualStyleBackColor = true;
+            this.KarmaCheckBox4.UseVisualStyleBackColor = false;
             // 
             // KarmaCheckBox5
             // 
             this.KarmaCheckBox5.AutoSize = true;
+            this.KarmaCheckBox5.BackColor = System.Drawing.Color.Transparent;
             this.KarmaCheckBox5.Location = new System.Drawing.Point(739, 69);
             this.KarmaCheckBox5.Name = "KarmaCheckBox5";
             this.KarmaCheckBox5.Size = new System.Drawing.Size(39, 28);
             this.KarmaCheckBox5.TabIndex = 41;
             this.KarmaCheckBox5.Text = "5";
-            this.KarmaCheckBox5.UseVisualStyleBackColor = true;
+            this.KarmaCheckBox5.UseVisualStyleBackColor = false;
             // 
             // KarmaLabel
             // 
             this.KarmaLabel.AutoSize = true;
+            this.KarmaLabel.BackColor = System.Drawing.Color.Transparent;
             this.KarmaLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.KarmaLabel.Location = new System.Drawing.Point(555, 42);
             this.KarmaLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -462,6 +485,7 @@
             // StressLabel
             // 
             this.StressLabel.AutoSize = true;
+            this.StressLabel.BackColor = System.Drawing.Color.Transparent;
             this.StressLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.StressLabel.Location = new System.Drawing.Point(555, 104);
             this.StressLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -473,66 +497,73 @@
             // StressCheckBox1
             // 
             this.StressCheckBox1.AutoSize = true;
+            this.StressCheckBox1.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox1.Location = new System.Drawing.Point(559, 131);
             this.StressCheckBox1.Name = "StressCheckBox1";
             this.StressCheckBox1.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox1.TabIndex = 44;
             this.StressCheckBox1.Text = "1";
-            this.StressCheckBox1.UseVisualStyleBackColor = true;
+            this.StressCheckBox1.UseVisualStyleBackColor = false;
             // 
             // StressCheckBox2
             // 
             this.StressCheckBox2.AutoSize = true;
+            this.StressCheckBox2.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox2.Location = new System.Drawing.Point(604, 131);
             this.StressCheckBox2.Name = "StressCheckBox2";
             this.StressCheckBox2.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox2.TabIndex = 45;
             this.StressCheckBox2.Text = "2";
-            this.StressCheckBox2.UseVisualStyleBackColor = true;
+            this.StressCheckBox2.UseVisualStyleBackColor = false;
             // 
             // StressCheckBox3
             // 
             this.StressCheckBox3.AutoSize = true;
+            this.StressCheckBox3.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox3.Location = new System.Drawing.Point(649, 131);
             this.StressCheckBox3.Name = "StressCheckBox3";
             this.StressCheckBox3.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox3.TabIndex = 46;
             this.StressCheckBox3.Text = "3";
-            this.StressCheckBox3.UseVisualStyleBackColor = true;
+            this.StressCheckBox3.UseVisualStyleBackColor = false;
             // 
             // StressCheckBox4
             // 
             this.StressCheckBox4.AutoSize = true;
+            this.StressCheckBox4.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox4.Location = new System.Drawing.Point(694, 131);
             this.StressCheckBox4.Name = "StressCheckBox4";
             this.StressCheckBox4.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox4.TabIndex = 47;
             this.StressCheckBox4.Text = "4";
-            this.StressCheckBox4.UseVisualStyleBackColor = true;
+            this.StressCheckBox4.UseVisualStyleBackColor = false;
             // 
             // StressCheckBox5
             // 
             this.StressCheckBox5.AutoSize = true;
+            this.StressCheckBox5.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox5.Location = new System.Drawing.Point(739, 131);
             this.StressCheckBox5.Name = "StressCheckBox5";
             this.StressCheckBox5.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox5.TabIndex = 48;
             this.StressCheckBox5.Text = "5";
-            this.StressCheckBox5.UseVisualStyleBackColor = true;
+            this.StressCheckBox5.UseVisualStyleBackColor = false;
             // 
             // StressCheckBox6
             // 
             this.StressCheckBox6.AutoSize = true;
+            this.StressCheckBox6.BackColor = System.Drawing.Color.Transparent;
             this.StressCheckBox6.Location = new System.Drawing.Point(784, 131);
             this.StressCheckBox6.Name = "StressCheckBox6";
             this.StressCheckBox6.Size = new System.Drawing.Size(39, 28);
             this.StressCheckBox6.TabIndex = 49;
             this.StressCheckBox6.Text = "6";
-            this.StressCheckBox6.UseVisualStyleBackColor = true;
+            this.StressCheckBox6.UseVisualStyleBackColor = false;
             // 
             // FateDieLabel
             // 
             this.FateDieLabel.AutoSize = true;
+            this.FateDieLabel.BackColor = System.Drawing.Color.Transparent;
             this.FateDieLabel.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FateDieLabel.Location = new System.Drawing.Point(555, 169);
             this.FateDieLabel.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
@@ -544,11 +575,12 @@
             // FateDieCheckBox
             // 
             this.FateDieCheckBox.AutoSize = true;
+            this.FateDieCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.FateDieCheckBox.Location = new System.Drawing.Point(559, 196);
             this.FateDieCheckBox.Name = "FateDieCheckBox";
             this.FateDieCheckBox.Size = new System.Drawing.Size(15, 14);
             this.FateDieCheckBox.TabIndex = 51;
-            this.FateDieCheckBox.UseVisualStyleBackColor = true;
+            this.FateDieCheckBox.UseVisualStyleBackColor = false;
             // 
             // AddItemLabel
             // 
@@ -581,30 +613,33 @@
             // 
             // UnknownCheckBox
             // 
+            this.UnknownCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.UnknownCheckBox.Image = global::PokeQuest.Properties.Resources.UnownQuestionMark_Icon_Small2;
             this.UnknownCheckBox.Location = new System.Drawing.Point(476, 84);
             this.UnknownCheckBox.Name = "UnknownCheckBox";
             this.UnknownCheckBox.Size = new System.Drawing.Size(58, 44);
             this.UnknownCheckBox.TabIndex = 54;
-            this.UnknownCheckBox.UseVisualStyleBackColor = true;
+            this.UnknownCheckBox.UseVisualStyleBackColor = false;
             // 
             // FemaleCheckBox
             // 
+            this.FemaleCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.FemaleCheckBox.Image = global::PokeQuest.Properties.Resources.FemaleGender_Icon_Small;
             this.FemaleCheckBox.Location = new System.Drawing.Point(392, 84);
             this.FemaleCheckBox.Name = "FemaleCheckBox";
             this.FemaleCheckBox.Size = new System.Drawing.Size(58, 44);
             this.FemaleCheckBox.TabIndex = 53;
-            this.FemaleCheckBox.UseVisualStyleBackColor = true;
+            this.FemaleCheckBox.UseVisualStyleBackColor = false;
             // 
             // MaleCheckBox
             // 
+            this.MaleCheckBox.BackColor = System.Drawing.Color.Transparent;
             this.MaleCheckBox.Image = global::PokeQuest.Properties.Resources.MaleGender_Icon_Small;
             this.MaleCheckBox.Location = new System.Drawing.Point(311, 84);
             this.MaleCheckBox.Name = "MaleCheckBox";
             this.MaleCheckBox.Size = new System.Drawing.Size(58, 44);
             this.MaleCheckBox.TabIndex = 52;
-            this.MaleCheckBox.UseVisualStyleBackColor = true;
+            this.MaleCheckBox.UseVisualStyleBackColor = false;
             // 
             // DeleteItemBtn
             // 
@@ -624,26 +659,29 @@
             this.AddItemBtn.TabIndex = 34;
             this.AddItemBtn.UseVisualStyleBackColor = true;
             // 
-            // pictureBox6
+            // PokemonPictureBox4
             // 
-            this.pictureBox6.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox6.Location = new System.Drawing.Point(77, 706);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(234, 178);
-            this.pictureBox6.TabIndex = 32;
-            this.pictureBox6.TabStop = false;
+            this.PokemonPictureBox4.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonPictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PokemonPictureBox4.Location = new System.Drawing.Point(77, 706);
+            this.PokemonPictureBox4.Name = "PokemonPictureBox4";
+            this.PokemonPictureBox4.Size = new System.Drawing.Size(234, 178);
+            this.PokemonPictureBox4.TabIndex = 32;
+            this.PokemonPictureBox4.TabStop = false;
             // 
-            // pictureBox5
+            // PokemonPictureBox5
             // 
-            this.pictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox5.Location = new System.Drawing.Point(354, 706);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(234, 178);
-            this.pictureBox5.TabIndex = 31;
-            this.pictureBox5.TabStop = false;
+            this.PokemonPictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonPictureBox5.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PokemonPictureBox5.Location = new System.Drawing.Point(354, 706);
+            this.PokemonPictureBox5.Name = "PokemonPictureBox5";
+            this.PokemonPictureBox5.Size = new System.Drawing.Size(234, 178);
+            this.PokemonPictureBox5.TabIndex = 31;
+            this.PokemonPictureBox5.TabStop = false;
             // 
             // pictureBox4
             // 
+            this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.pictureBox4.Location = new System.Drawing.Point(632, 706);
             this.pictureBox4.Name = "pictureBox4";
@@ -651,35 +689,39 @@
             this.pictureBox4.TabIndex = 30;
             this.pictureBox4.TabStop = false;
             // 
-            // pictureBox3
+            // PokemonPictureBox3
             // 
-            this.pictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox3.Location = new System.Drawing.Point(632, 384);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(234, 178);
-            this.pictureBox3.TabIndex = 29;
-            this.pictureBox3.TabStop = false;
+            this.PokemonPictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonPictureBox3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PokemonPictureBox3.Location = new System.Drawing.Point(632, 384);
+            this.PokemonPictureBox3.Name = "PokemonPictureBox3";
+            this.PokemonPictureBox3.Size = new System.Drawing.Size(234, 178);
+            this.PokemonPictureBox3.TabIndex = 29;
+            this.PokemonPictureBox3.TabStop = false;
             // 
-            // pictureBox2
+            // PokemonPictureBox2
             // 
-            this.pictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox2.Location = new System.Drawing.Point(354, 384);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(234, 178);
-            this.pictureBox2.TabIndex = 28;
-            this.pictureBox2.TabStop = false;
+            this.PokemonPictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonPictureBox2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PokemonPictureBox2.Location = new System.Drawing.Point(354, 384);
+            this.PokemonPictureBox2.Name = "PokemonPictureBox2";
+            this.PokemonPictureBox2.Size = new System.Drawing.Size(234, 178);
+            this.PokemonPictureBox2.TabIndex = 28;
+            this.PokemonPictureBox2.TabStop = false;
             // 
-            // pictureBox1
+            // PokemonPictureBox1
             // 
-            this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Location = new System.Drawing.Point(77, 384);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(234, 178);
-            this.pictureBox1.TabIndex = 27;
-            this.pictureBox1.TabStop = false;
+            this.PokemonPictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.PokemonPictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.PokemonPictureBox1.Location = new System.Drawing.Point(77, 384);
+            this.PokemonPictureBox1.Name = "PokemonPictureBox1";
+            this.PokemonPictureBox1.Size = new System.Drawing.Size(234, 178);
+            this.PokemonPictureBox1.TabIndex = 27;
+            this.PokemonPictureBox1.TabStop = false;
             // 
             // TrainerPicBox
             // 
+            this.TrainerPicBox.BackColor = System.Drawing.Color.Transparent;
             this.TrainerPicBox.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.TrainerPicBox.Location = new System.Drawing.Point(829, 12);
             this.TrainerPicBox.Name = "TrainerPicBox";
@@ -690,6 +732,7 @@
             // SubmitTrainerButton
             // 
             this.SubmitTrainerButton.AutoSize = true;
+            this.SubmitTrainerButton.BackColor = System.Drawing.Color.Transparent;
             this.SubmitTrainerButton.BackgroundImage = global::PokeQuest.Properties.Resources.Pokeball_Icon;
             this.SubmitTrainerButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.SubmitTrainerButton.FlatAppearance.BorderSize = 0;
@@ -699,7 +742,7 @@
             this.SubmitTrainerButton.Name = "SubmitTrainerButton";
             this.SubmitTrainerButton.Size = new System.Drawing.Size(106, 107);
             this.SubmitTrainerButton.TabIndex = 3;
-            this.SubmitTrainerButton.UseVisualStyleBackColor = true;
+            this.SubmitTrainerButton.UseVisualStyleBackColor = false;
             // 
             // ClearItemLabel
             // 
@@ -711,33 +754,33 @@
             this.ClearItemLabel.TabIndex = 58;
             this.ClearItemLabel.Text = " Clear    Item";
             // 
-            // button1
+            // AddQtyBtn
             // 
-            this.button1.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Location = new System.Drawing.Point(1346, 359);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(24, 37);
-            this.button1.TabIndex = 59;
-            this.button1.Text = "+";
-            this.button1.UseVisualStyleBackColor = true;
+            this.AddQtyBtn.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.AddQtyBtn.Location = new System.Drawing.Point(1346, 359);
+            this.AddQtyBtn.Name = "AddQtyBtn";
+            this.AddQtyBtn.Size = new System.Drawing.Size(24, 37);
+            this.AddQtyBtn.TabIndex = 59;
+            this.AddQtyBtn.Text = "+";
+            this.AddQtyBtn.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // MinusQtyBtn
             // 
-            this.button2.Location = new System.Drawing.Point(1376, 359);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(24, 37);
-            this.button2.TabIndex = 60;
-            this.button2.Text = "-";
-            this.button2.UseVisualStyleBackColor = true;
+            this.MinusQtyBtn.Location = new System.Drawing.Point(1376, 359);
+            this.MinusQtyBtn.Name = "MinusQtyBtn";
+            this.MinusQtyBtn.Size = new System.Drawing.Size(24, 37);
+            this.MinusQtyBtn.TabIndex = 60;
+            this.MinusQtyBtn.Text = "-";
+            this.MinusQtyBtn.UseVisualStyleBackColor = true;
             // 
-            // PokeQuestWindow
+            // PokemonPictureBox6
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.SystemColors.Window;
+            this.BackColor = System.Drawing.SystemColors.HotTrack;
             this.ClientSize = new System.Drawing.Size(1670, 978);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.MinusQtyBtn);
+            this.Controls.Add(this.AddQtyBtn);
             this.Controls.Add(this.ClearItemLabel);
             this.Controls.Add(this.ClearItemButton);
             this.Controls.Add(this.DeleteItemLabel);
@@ -762,27 +805,27 @@
             this.Controls.Add(this.KarmaCheckBox1);
             this.Controls.Add(this.DeleteItemBtn);
             this.Controls.Add(this.AddItemBtn);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.PokemonPictureBox4);
+            this.Controls.Add(this.PokemonPictureBox5);
             this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.PokemonPictureBox3);
+            this.Controls.Add(this.PokemonPictureBox2);
+            this.Controls.Add(this.PokemonPictureBox1);
             this.Controls.Add(this.AddItemQtyTextBox);
             this.Controls.Add(this.BackpackGridView);
-            this.Controls.Add(this.AddItemTextBox);
+            this.Controls.Add(this.ItemTextBox);
             this.Controls.Add(this.NicknameLabel4);
             this.Controls.Add(this.NicknameLabel5);
             this.Controls.Add(this.NicknameLabel6);
             this.Controls.Add(this.NicknameLabel3);
-            this.Controls.Add(this.NicknameLabel);
+            this.Controls.Add(this.NicknameLabel2);
             this.Controls.Add(this.NicknameLabel1);
             this.Controls.Add(this.TrainerGroupBox);
             this.Controls.Add(this.TrainerPicBox);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.Pokemon1Label);
+            this.Controls.Add(this.PokemonLabel6);
+            this.Controls.Add(this.PokemonLabel3);
+            this.Controls.Add(this.PokemonLabel2);
+            this.Controls.Add(this.PokemonLabel1);
             this.Controls.Add(this.DescriptionTextBox);
             this.Controls.Add(this.TrainerDescriptionLabel);
             this.Controls.Add(this.ToSubmitTrainerLabel);
@@ -796,22 +839,22 @@
             this.Controls.Add(this.AgeLabel);
             this.Controls.Add(this.TrainerNameLabel);
             this.Controls.Add(this.TrainerDescriptionOutputLabel);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.PokemonLabel5);
+            this.Controls.Add(this.PokemonLabel4);
             this.Font = new System.Drawing.Font("Modern No. 20", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "PokeQuestWindow";
-            this.Text = "PokeQuest";
+            this.Name = "PokemonPictureBox6";
+            this.Text = "Pokemon Stat Viewer";
             this.TransparencyKey = System.Drawing.Color.Gainsboro;
             ((System.ComponentModel.ISupportInitialize)(this.BackpackGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PokemonPictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TrainerPicBox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -833,29 +876,29 @@
         private System.Windows.Forms.Label TrainerDescriptionLabel;
         private System.Windows.Forms.TextBox DescriptionTextBox;
         private System.Windows.Forms.Label TrainerDescriptionOutputLabel;
-        private System.Windows.Forms.Label Pokemon1Label;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label PokemonLabel1;
+        private System.Windows.Forms.Label PokemonLabel4;
+        private System.Windows.Forms.Label PokemonLabel2;
+        private System.Windows.Forms.Label PokemonLabel3;
+        private System.Windows.Forms.Label PokemonLabel5;
+        private System.Windows.Forms.Label PokemonLabel6;
         private System.Windows.Forms.PictureBox TrainerPicBox;
         private System.Windows.Forms.ComboBox TrainerGroupBox;
         private System.Windows.Forms.Label NicknameLabel1;
-        private System.Windows.Forms.Label NicknameLabel;
+        private System.Windows.Forms.Label NicknameLabel2;
         private System.Windows.Forms.Label NicknameLabel3;
         private System.Windows.Forms.Label NicknameLabel6;
         private System.Windows.Forms.Label NicknameLabel5;
         private System.Windows.Forms.Label NicknameLabel4;
-        private System.Windows.Forms.TextBox AddItemTextBox;
+        private System.Windows.Forms.TextBox ItemTextBox;
         private System.Windows.Forms.DataGridView BackpackGridView;
         private System.Windows.Forms.TextBox AddItemQtyTextBox;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox PokemonPictureBox1;
+        private System.Windows.Forms.PictureBox PokemonPictureBox2;
+        private System.Windows.Forms.PictureBox PokemonPictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox PokemonPictureBox5;
+        private System.Windows.Forms.PictureBox PokemonPictureBox4;
         private System.Windows.Forms.Button AddItemBtn;
         private System.Windows.Forms.Button DeleteItemBtn;
         private System.Windows.Forms.CheckBox KarmaCheckBox1;
@@ -880,8 +923,8 @@
         private System.Windows.Forms.Label DeleteItemLabel;
         private System.Windows.Forms.Button ClearItemButton;
         private System.Windows.Forms.Label ClearItemLabel;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button AddQtyBtn;
+        private System.Windows.Forms.Button MinusQtyBtn;
     }
 }
 
